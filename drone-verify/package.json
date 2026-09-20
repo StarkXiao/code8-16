@@ -1,0 +1,17 @@
+{
+  "name": "drone-verify",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "无人机植保作业质量核验系统：比对实际航迹与喷洒记录，识别漏喷/重喷，给出可申诉的核验结论",
+  "engines": {
+    "node": ">=18.17"
+  },
+  "scripts": {
+    "test": "node --test test/",
+    "demo": "node src/cli.js gen-sample --out data/sample && node src/cli.js verify --task data/sample/task.json --track data/sample/track.csv --spray data/sample/spray.csv --out data/report"
+  },
+  "bin": {
+    "drone-verify": "src/cli.js"
+  }
+}
