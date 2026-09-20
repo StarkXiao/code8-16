@@ -1,0 +1,12 @@
+{
+  "reportId": "在报告 JSON 顶层 reportId",
+  "reportHash": "粘贴报告中的 reportHash（受理时会自动校验，篡改报告将无法申诉）",
+  "findingId": "MI-001（填要申诉的问题编号）",
+  "reasonCode": "OBSTACLE",
+  "statement": "该行有一棵 20 年树龄的大榕树及拉线，安全半径 4 米内无法作业，已绕行，申请豁免。",
+  "evidence": [
+    "evidence/IMG_0312-tree.mp4（现场视频）",
+    "evidence/绕飞规划.kml"
+  ],
+  "submitter": "陈伟"
+}
